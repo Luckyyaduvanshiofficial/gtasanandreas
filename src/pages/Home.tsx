@@ -56,14 +56,14 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              Welcome to{" "}
-              <span className="text-gradient">San Andreas</span>
+              Download{" "}
+              <span className="text-gradient">GTA San Andreas</span>
               <br />
-              <span className="text-3xl md:text-5xl">Ultimate Mod Edition</span>
+              <span className="text-3xl md:text-5xl">Ultimate Mod - Compressed Definitive Edition</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Experience the classic with enhanced graphics, optimized performance, 
-              and quality-of-life improvements. Free download, legal copy required.
+              Experience the legendary open-world classic with enhanced HD graphics, optimized performance for low-end PCs, 
+              and quality-of-life improvements. Free download (8GB compressed), legal copy required. Available for PC and Android.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/download">
@@ -161,6 +161,59 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Content Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <Card className="gradient-card card-shadow p-8 border-border">
+              <article className="prose prose-invert max-w-none">
+                <h2 className="text-3xl font-bold mb-4 text-foreground">🔥 About GTA San Andreas - The Ultimate Open-World Experience</h2>
+                <p className="text-muted-foreground mb-4">
+                  Grand Theft Auto: San Andreas is an open-world action-adventure game developed by Rockstar North and published by Rockstar Games, following the enormous success of its predecessor, Grand Theft Auto: Vice City. Released for PC in 2005, it expanded the foundations laid by Vice City's vibrant 1980s world, pushing the open-world formula to an entirely new level of scale, ambition, and complexity.
+                </p>
+                <p className="text-muted-foreground mb-6">
+                  Set in the fictional state of San Andreas—a sprawling mix of urban chaos, rural deserts, and coastal towns inspired by California and Nevada—the game follows Carl "CJ" Johnson. After returning home to Los Santos following his mother's murder, CJ becomes entangled in gang rivalries, police corruption, and a dangerous climb to power. What begins as a small, personal story of revenge quickly evolves into an epic tale of crime, loyalty, and survival across three huge cities: Los Santos, San Fierro, and Las Venturas.
+                </p>
+
+                <h3 className="text-2xl font-semibold mb-3 text-foreground">✨ Why Download Our GTA San Andreas Mod?</h3>
+                
+                <h4 className="text-xl font-semibold mb-2 text-foreground mt-6">Massive Open World - Enhanced</h4>
+                <p className="text-muted-foreground mb-4">
+                  San Andreas offers one of the largest and most varied open worlds ever created at the time of its release. From the sun-soaked streets of Los Santos to the misty hills of San Fierro and the neon-lit casinos of Las Venturas, each region has its own culture, atmosphere, and challenges. The world feels alive with pedestrians, vehicles, and random events that make every drive unpredictable. Our mod enhances every corner with HD textures and improved lighting.
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-foreground">Deep Character Customization System</h4>
+                <p className="text-muted-foreground mb-4">
+                  For the first time in the series, players could shape the protagonist both visually and physically. CJ can gain or lose weight, improve stamina, and change hairstyles or tattoos, with each aspect affecting gameplay. Eating too much fast food will make him heavier and slower, while regular exercise at gyms increases strength and agility. This system adds a subtle role-playing dimension to the game.
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-foreground">Expansive Mission Variety</h4>
+                <p className="text-muted-foreground mb-4">
+                  Missions in San Andreas range from small-time gang fights to large-scale heists, government conspiracies, and high-speed chases. The diversity of tasks keeps the gameplay fresh, ensuring that boredom rarely sets in. Many missions involve cinematic set pieces that blend driving, shooting, and strategy.
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-foreground">Optimized for Low-End PC & High-End Performance</h4>
+                <p className="text-muted-foreground mb-4">
+                  Our compressed definitive edition is optimized to run smoothly on both low-end and high-end PCs. Whether you have 2GB RAM or 16GB RAM, you'll experience smooth gameplay with scalable graphics options. The 8GB compressed download includes everything you need without unnecessary bloat.
+                </p>
+
+                <h4 className="text-xl font-semibold mb-2 text-foreground">Multiple Download Mirrors Available</h4>
+                <p className="text-muted-foreground mb-6">
+                  Download from Google Drive, MEGA, or MediaFire—whichever is fastest for your region. We also offer a mobile APK version for Android devices with full mod support and unlimited money. All downloads include automatic installers for hassle-free setup.
+                </p>
+
+                <div className="bg-primary/10 border border-primary/30 rounded-lg p-6 mt-8">
+                  <h4 className="text-xl font-semibold mb-2 text-foreground">🎮 Keywords: GTA SA Download, Compressed, Definitive Edition</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Looking for GTA San Andreas download? Want the compressed version that works on low-end PC? Need the definitive edition with HD graphics? You're in the right place. Download GTA SA with mods, enhanced graphics, performance optimization, and full mobile APK support. This is the ultimate GTA San Andreas experience for 2025.
+                  </p>
+                </div>
+              </article>
             </Card>
           </div>
         </div>
