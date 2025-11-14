@@ -138,9 +138,22 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
 
-          <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 GTA SA Ultimate Mod. Not affiliated with Rockstar Games.</p>
-            <p className="mt-2">Grand Theft Auto and GTA are trademarks of Take-Two Interactive Software Inc.</p>
+          <div className="mt-8 pt-8 border-t border-border">
+            <div className="text-center mb-4">
+              <p className="text-sm text-muted-foreground mb-2">Also visit our Indian website:</p>
+              <a 
+                href="http://gta-san-andreas.in/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 font-medium transition-colors"
+              >
+                GTA San Andreas India - gta-san-andreas.in
+              </a>
+            </div>
+            <div className="text-center text-sm text-muted-foreground">
+              <p>© 2025 GTA SA Ultimate Mod. Not affiliated with Rockstar Games.</p>
+              <p className="mt-2">Grand Theft Auto and GTA are trademarks of Take-Two Interactive Software Inc.</p>
+            </div>
           </div>
         </div>
       </footer>

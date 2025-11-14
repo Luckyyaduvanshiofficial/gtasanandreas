@@ -22,27 +22,27 @@ const features = [
 ];
 
 const screenshots = [
-  { id: 969, src: "/images/Screenshot (969).png", alt: "GTA San Andreas Enhanced Graphics - Los Santos View" },
-  { id: 970, src: "/images/Screenshot (970).png", alt: "GTA SA HD Mod - Improved Vehicle Models" },
-  { id: 971, src: "/images/Screenshot (971).png", alt: "GTA San Andreas Ultimate Mod - Character Detail" },
-  { id: 972, src: "/images/Screenshot (972).png", alt: "GTA SA Compressed - Enhanced Lighting Effects" },
-  { id: 973, src: "/images/Screenshot (973).png", alt: "GTA San Andreas Download - HD Textures Showcase" },
-  { id: 974, src: "/images/Screenshot (974).png", alt: "GTA SA Definitive Edition - City Atmosphere" },
-  { id: 975, src: "/images/Screenshot (975).png", alt: "GTA San Andreas Mod - Improved Shadows" },
-  { id: 976, src: "/images/Screenshot (976).png", alt: "GTA SA Low End PC - Optimized Performance" },
-  { id: 977, src: "/images/Screenshot (977).png", alt: "GTA San Andreas 2025 - Modern Graphics" },
-  { id: 978, src: "/images/Screenshot (978).png", alt: "GTA SA HD Graphics Mod - Urban Details" },
-  { id: 979, src: "/images/Screenshot (979).png", alt: "GTA San Andreas Download Free - Game Scene" },
-  { id: 980, src: "/images/Screenshot (980).png", alt: "GTA SA Ultimate - Enhanced Environment" },
-  { id: 981, src: "/images/Screenshot (981).png", alt: "GTA San Andreas Compressed Edition - Gameplay" },
-  { id: 982, src: "/images/Screenshot (982).png", alt: "GTA SA Mod Pack - Visual Improvements" },
-  { id: 983, src: "/images/Screenshot (983).png", alt: "GTA San Andreas HD - Realistic Lighting" },
-  { id: 984, src: "/images/Screenshot (984).png", alt: "GTA SA Download PC - Game Environment" },
-  { id: 985, src: "/images/Screenshot (985).png", alt: "GTA San Andreas Ultimate Mod - Street View" },
-  { id: 986, src: "/images/Screenshot (986).png", alt: "GTA SA Enhanced - Better Textures" },
-  { id: 987, src: "/images/Screenshot (987).png", alt: "GTA San Andreas Mod 2025 - Updated Graphics" },
-  { id: 988, src: "/images/Screenshot (988).png", alt: "GTA SA Definitive - Improved Models" },
-  { id: 989, src: "/images/Screenshot (989).png", alt: "GTA San Andreas Free Download - Final Scene" }
+  { id: 969, src: "/Images/Screenshot (969).webp", alt: "GTA San Andreas Enhanced Graphics - Los Santos View" },
+  { id: 970, src: "/Images/Screenshot (970).webp", alt: "GTA SA HD Mod - Improved Vehicle Models" },
+  { id: 971, src: "/Images/Screenshot (971).webp", alt: "GTA San Andreas Ultimate Mod - Character Detail" },
+  { id: 972, src: "/Images/Screenshot (972).webp", alt: "GTA SA Compressed - Enhanced Lighting Effects" },
+  { id: 973, src: "/Images/Screenshot (973).webp", alt: "GTA San Andreas Download - HD Textures Showcase" },
+  { id: 974, src: "/Images/Screenshot (974).webp", alt: "GTA SA Definitive Edition - City Atmosphere" },
+  { id: 975, src: "/Images/Screenshot (975).webp", alt: "GTA San Andreas Mod - Improved Shadows" },
+  { id: 976, src: "/Images/Screenshot (976).webp", alt: "GTA SA Low End PC - Optimized Performance" },
+  { id: 977, src: "/Images/Screenshot (977).webp", alt: "GTA San Andreas 2025 - Modern Graphics" },
+  { id: 978, src: "/Images/Screenshot (978).webp", alt: "GTA SA HD Graphics Mod - Urban Details" },
+  { id: 979, src: "/Images/Screenshot (979).webp", alt: "GTA San Andreas Download Free - Game Scene" },
+  { id: 980, src: "/Images/Screenshot (980).webp", alt: "GTA SA Ultimate - Enhanced Environment" },
+  { id: 981, src: "/Images/Screenshot (981).webp", alt: "GTA San Andreas Compressed Edition - Gameplay" },
+  { id: 982, src: "/Images/Screenshot (982).webp", alt: "GTA SA Mod Pack - Visual Improvements" },
+  { id: 983, src: "/Images/Screenshot (983).webp", alt: "GTA San Andreas HD - Realistic Lighting" },
+  { id: 984, src: "/Images/Screenshot (984).webp", alt: "GTA SA Download PC - Game Environment" },
+  { id: 985, src: "/Images/Screenshot (985).webp", alt: "GTA San Andreas Ultimate Mod - Street View" },
+  { id: 986, src: "/Images/Screenshot (986).webp", alt: "GTA SA Enhanced - Better Textures" },
+  { id: 987, src: "/Images/Screenshot (987).webp", alt: "GTA San Andreas Mod 2025 - Updated Graphics" },
+  { id: 988, src: "/Images/Screenshot (988).webp", alt: "GTA SA Definitive - Improved Models" },
+  { id: 989, src: "/Images/Screenshot (989).webp", alt: "GTA San Andreas Free Download - Final Scene" }
 ];
 
 const systemRequirements = {
