@@ -9,31 +9,34 @@ export default function About() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            About <span className="text-gradient">This Project</span>
+            About <span className="text-gradient">GTA San Andreas Ultimate Mod</span>
           </h1>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-muted-foreground mb-4">
             Bringing new life to a classic game
+          </p>
+          <p className="text-muted-foreground">
+            <a href="http://gta-san-andreas.one/" className="text-primary hover:underline">gta-san-andreas.one</a>
           </p>
         </div>
 
         {/* Main Content */}
         <Card className="gradient-card card-shadow p-8 md:p-12 border-border mb-8">
-          <h2 className="text-2xl font-bold mb-6">Our Mission</h2>
+          <h2 className="text-2xl font-bold mb-6">Our Mission at gta-san-andreas.one</h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              GTA San Andreas Ultimate Mod was created to enhance the experience of one of gaming's most beloved classics. 
-              Our goal is to provide modern graphics, improved performance, and quality-of-life improvements while maintaining 
-              the soul and feel of the original game.
+              The GTA San Andreas Ultimate Mod available at <strong>gta-san-andreas.one</strong> was created to enhance the experience of one of gaming's most beloved classics for players in the United States and around the world. 
+              Our goal is to provide modern HD graphics, improved performance optimizations, and quality-of-life improvements while maintaining 
+              the soul and feel of the original game that made San Andreas a legend.
             </p>
             <p>
               This project began as a personal passion to replay GTA SA with better visuals on modern hardware. 
               After months of testing, tweaking, and optimization, we've compiled the best mods and enhancements 
-              into a single, easy-to-install package that anyone can use.
+              into a single, easy-to-install 8GB compressed package that anyone can download and use—whether you're on a low-end PC or high-end gaming rig.
             </p>
             <p>
-              All mods included have been carefully selected and tested for compatibility, performance, and stability. 
+              All mods included have been carefully selected and tested for compatibility, performance, and stability on Windows systems. 
               We've optimized everything to work on both low-end and high-end systems, ensuring everyone can enjoy 
-              an improved San Andreas experience.
+              an improved San Andreas experience with this definitive edition mod pack.
             </p>
           </div>
         </Card>
@@ -45,8 +48,8 @@ export default function About() {
             <div>
               <h3 className="font-semibold text-lg mb-2 text-primary">100% Legal & Ethical</h3>
               <p className="text-muted-foreground">
-                We do not host, distribute, or encourage piracy of any kind. This mod requires a legal copy of 
-                GTA San Andreas. We believe in supporting game developers and respecting intellectual property rights.
+                We at <strong>gta-san-andreas.one</strong> do not host, distribute, or encourage piracy of any kind. This GTA San Andreas mod requires a legal copy of 
+                the original game purchased from authorized retailers like Steam or Rockstar Games. We believe in supporting game developers and respecting intellectual property rights under US and international copyright law.
               </p>
             </div>
             <div>

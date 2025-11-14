@@ -22,12 +22,27 @@ const features = [
 ];
 
 const screenshots = [
-  { id: 1, alt: "Los Santos skyline with enhanced graphics" },
-  { id: 2, alt: "Improved vehicle models and reflections" },
-  { id: 3, alt: "Enhanced character models and animations" },
-  { id: 4, alt: "Better lighting and shadow effects" },
-  { id: 5, alt: "HD texture pack showcase" },
-  { id: 6, alt: "Performance comparison" }
+  { id: 969, src: "/images/Screenshot (969).png", alt: "GTA San Andreas Enhanced Graphics - Los Santos View" },
+  { id: 970, src: "/images/Screenshot (970).png", alt: "GTA SA HD Mod - Improved Vehicle Models" },
+  { id: 971, src: "/images/Screenshot (971).png", alt: "GTA San Andreas Ultimate Mod - Character Detail" },
+  { id: 972, src: "/images/Screenshot (972).png", alt: "GTA SA Compressed - Enhanced Lighting Effects" },
+  { id: 973, src: "/images/Screenshot (973).png", alt: "GTA San Andreas Download - HD Textures Showcase" },
+  { id: 974, src: "/images/Screenshot (974).png", alt: "GTA SA Definitive Edition - City Atmosphere" },
+  { id: 975, src: "/images/Screenshot (975).png", alt: "GTA San Andreas Mod - Improved Shadows" },
+  { id: 976, src: "/images/Screenshot (976).png", alt: "GTA SA Low End PC - Optimized Performance" },
+  { id: 977, src: "/images/Screenshot (977).png", alt: "GTA San Andreas 2025 - Modern Graphics" },
+  { id: 978, src: "/images/Screenshot (978).png", alt: "GTA SA HD Graphics Mod - Urban Details" },
+  { id: 979, src: "/images/Screenshot (979).png", alt: "GTA San Andreas Download Free - Game Scene" },
+  { id: 980, src: "/images/Screenshot (980).png", alt: "GTA SA Ultimate - Enhanced Environment" },
+  { id: 981, src: "/images/Screenshot (981).png", alt: "GTA San Andreas Compressed Edition - Gameplay" },
+  { id: 982, src: "/images/Screenshot (982).png", alt: "GTA SA Mod Pack - Visual Improvements" },
+  { id: 983, src: "/images/Screenshot (983).png", alt: "GTA San Andreas HD - Realistic Lighting" },
+  { id: 984, src: "/images/Screenshot (984).png", alt: "GTA SA Download PC - Game Environment" },
+  { id: 985, src: "/images/Screenshot (985).png", alt: "GTA San Andreas Ultimate Mod - Street View" },
+  { id: 986, src: "/images/Screenshot (986).png", alt: "GTA SA Enhanced - Better Textures" },
+  { id: 987, src: "/images/Screenshot (987).png", alt: "GTA San Andreas Mod 2025 - Updated Graphics" },
+  { id: 988, src: "/images/Screenshot (988).png", alt: "GTA SA Definitive - Improved Models" },
+  { id: 989, src: "/images/Screenshot (989).png", alt: "GTA San Andreas Free Download - Final Scene" }
 ];
 
 const systemRequirements = {
@@ -106,23 +121,29 @@ export default function Home() {
       {/* Screenshot Gallery */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             See the <span className="text-gradient">Difference</span>
           </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Experience the stunning visual upgrades from <strong>gta-san-andreas.one</strong> - HD graphics, enhanced lighting, and improved textures transform your GTA San Andreas gameplay.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {screenshots.map((screenshot) => (
               <div 
                 key={screenshot.id} 
-                className="aspect-video bg-muted rounded-lg overflow-hidden card-shadow hover:scale-105 transition-transform cursor-pointer"
+                className="aspect-video bg-muted rounded-lg overflow-hidden card-shadow hover:scale-105 transition-transform cursor-pointer group"
               >
-                <div className="w-full h-full flex items-center justify-center">
-                  <ImageIcon className="h-16 w-16 text-muted-foreground" />
-                </div>
+                <img 
+                  src={screenshot.src} 
+                  alt={screenshot.alt}
+                  className="w-full h-full object-cover group-hover:opacity-90 transition-opacity"
+                  loading="lazy"
+                />
               </div>
             ))}
           </div>
           <p className="text-center text-muted-foreground mt-8">
-            Click any image to view full size • Before/After comparisons available
+            All screenshots from the GTA San Andreas Ultimate Mod available at <strong className="text-primary">gta-san-andreas.one</strong>
           </p>
         </div>
       </section>
