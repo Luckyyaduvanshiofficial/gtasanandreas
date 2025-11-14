@@ -8,7 +8,7 @@ const downloadMirrors = [
   {
     name: "Google Drive",
     icon: "🔵",
-    url: "#google-drive-link",
+    url: "https://drive.google.com/file/d/10eHSDRGD3r2ZTVZBp3jx6xDf3jlj-YVa/",
     recommended: true
   },
   {
@@ -20,14 +20,22 @@ const downloadMirrors = [
   {
     name: "MediaFire",
     icon: "🟡",
-    url: "#mediafire-link",
+    url: "https://www.mediafire.com/file_premium/4ub2emy3shfkg54/GTA-SA-v2.11.264-full-mod-money-apkvision.apk/file",
     recommended: false
   }
 ];
 
+const mobileDownload = {
+  name: "Mobile APK (Android)",
+  icon: "📱",
+  url: "https://www.mediafire.com/file_premium/4ub2emy3shfkg54/GTA-SA-v2.11.264-full-mod-money-apkvision.apk/file",
+  size: "2.5 GB",
+  version: "v2.11.264"
+};
+
 const fileInfo = {
   version: "2.0.1",
-  size: "4.2 GB",
+  size: "8 GB",
   checksum: "a3f5d8c9e4b2f1a7d6e8c3b5a2f9d1e4c7b6a5d8f3e2c1b9a4d7e6f5c8b2a1d3",
   releaseDate: "January 15, 2025"
 };
@@ -47,11 +55,48 @@ export default function Download() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Download <span className="text-gradient">GTA SA Ultimate Mod</span>
+            Download <span className="text-gradient">GTA San Andreas Ultimate Mod</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get the latest version with enhanced graphics, performance optimizations, and bug fixes.
+            Get the definitive edition with enhanced HD graphics, performance optimizations, compressed for faster downloads, and comprehensive bug fixes. Transform your GTA SA experience today.
           </p>
+        </div>
+
+        {/* SEO Article Section */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <Card className="gradient-card card-shadow p-8 border-border">
+            <article className="prose prose-invert max-w-none">
+              <h2 className="text-3xl font-bold mb-4 text-foreground">🔥 What is Grand Theft Auto: San Andreas Ultimate Mod?</h2>
+              <p className="text-muted-foreground mb-4">
+                Grand Theft Auto: San Andreas is an open-world action-adventure game developed by Rockstar North and published by Rockstar Games, following the enormous success of its predecessor, Grand Theft Auto: Vice City. Released for PC in 2005, it expanded the foundations laid by Vice City's vibrant 1980s world, pushing the open-world formula to an entirely new level of scale, ambition, and complexity.
+              </p>
+              <p className="text-muted-foreground mb-6">
+                Our Ultimate Mod takes this legendary game and elevates it to modern standards with enhanced HD textures, improved lighting systems, optimized performance for both high-end and low-end PCs, and comprehensive bug fixes that make the experience smoother than ever. Whether you're playing on Windows 7, 8, 10, or 11, this compressed definitive edition delivers the complete San Andreas experience.
+              </p>
+              
+              <h3 className="text-2xl font-semibold mb-3 text-foreground">✨ Features of GTA San Andreas Ultimate Mod</h3>
+              
+              <h4 className="text-xl font-semibold mb-2 text-foreground mt-6">Massive Open World Enhanced</h4>
+              <p className="text-muted-foreground mb-4">
+                San Andreas offers one of the largest and most varied open worlds ever created. From the sun-soaked streets of Los Santos to the misty hills of San Fierro and the neon-lit casinos of Las Venturas, each region has its own culture, atmosphere, and challenges. Our mod enhances every corner with HD textures, improved draw distance, and realistic lighting that makes the world feel more alive than ever before.
+              </p>
+
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Deep Character Customization</h4>
+              <p className="text-muted-foreground mb-4">
+                For the first time in the series, players can shape the protagonist both visually and physically. CJ can gain or lose weight, improve stamina, and change hairstyles or tattoos, with each aspect affecting gameplay. Our mod adds even more customization options and improves the visual quality of all character models.
+              </p>
+
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Performance Optimization</h4>
+              <p className="text-muted-foreground mb-4">
+                Whether you're running a low-end PC or a high-performance gaming rig, this compressed mod is optimized to deliver smooth 60+ FPS gameplay. We've included performance tweaks, memory optimizations, and scalable graphics settings that ensure everyone can enjoy San Andreas at its best.
+              </p>
+
+              <h4 className="text-xl font-semibold mb-2 text-foreground">Compressed for Faster Downloads</h4>
+              <p className="text-muted-foreground mb-6">
+                At just 8GB, this compressed definitive edition includes everything you need without unnecessary bloat. Fast download speeds from multiple mirrors (Google Drive, MEGA, MediaFire) ensure you'll be playing within hours, not days.
+              </p>
+            </article>
+          </Card>
         </div>
 
         {/* Legal Warning */}
@@ -126,9 +171,9 @@ export default function Download() {
               </div>
             </Card>
 
-            {/* Download Mirrors */}
+            {/* Download Mirrors - PC Version */}
             <Card className="gradient-card card-shadow p-8 border-border">
-              <h2 className="text-2xl font-semibold mb-6">Download Mirrors</h2>
+              <h2 className="text-2xl font-semibold mb-6">Download Mirrors - PC Version</h2>
               <div className="space-y-4">
                 {downloadMirrors.map((mirror) => (
                   <div
@@ -167,6 +212,41 @@ export default function Download() {
                   </div>
                 ))}
               </div>
+            </Card>
+
+            {/* Mobile APK Download */}
+            <Card className="gradient-card card-shadow p-8 border-border">
+              <h2 className="text-2xl font-semibold mb-6">Mobile Download - Android APK</h2>
+              <div className="border-primary/50 bg-primary/5 p-4 rounded-lg border">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center space-x-4">
+                    <span className="text-3xl">{mobileDownload.icon}</span>
+                    <div>
+                      <p className="font-semibold flex items-center gap-2">
+                        {mobileDownload.name}
+                        <span className="text-xs bg-secondary text-secondary-foreground px-2 py-0.5 rounded-full">
+                          {mobileDownload.version}
+                        </span>
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Full mod with unlimited money - {mobileDownload.size}
+                      </p>
+                    </div>
+                  </div>
+                  <Button
+                    className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+                    asChild
+                  >
+                    <a href={mobileDownload.url} target="_blank" rel="noopener noreferrer">
+                      <DownloadIcon className="mr-2 h-4 w-4" />
+                      Download APK
+                    </a>
+                  </Button>
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground mt-4">
+                ⚠️ Note: Enable "Install from Unknown Sources" in Android settings before installing.
+              </p>
             </Card>
 
             {/* Virus Scan */}
