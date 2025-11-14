@@ -7,14 +7,17 @@ export default function Privacy() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           Privacy <span className="text-gradient">Policy</span>
         </h1>
-        <p className="text-center text-muted-foreground mb-12">Last updated: January 15, 2025</p>
+        <p className="text-center text-muted-foreground mb-8">Last updated: January 15, 2025</p>
+        <p className="text-center text-muted-foreground mb-12">
+          GTA San Andreas Ultimate Mod - <a href="http://gta-san-andreas.one/" className="text-primary hover:underline">gta-san-andreas.one</a>
+        </p>
 
         <Card className="gradient-card card-shadow p-8 md:p-12 border-border">
           <div className="prose prose-invert max-w-none space-y-6 text-muted-foreground">
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-3">1. Information We Collect</h2>
               <p>
-                We collect minimal information to provide and improve our service:
+                At <strong>gta-san-andreas.one</strong>, we are committed to protecting your privacy. We collect minimal information to provide and improve our GTA San Andreas mod download service for our US audience:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1">
                 <li><strong>Usage Data:</strong> Anonymous analytics about page visits and download metrics</li>
@@ -36,9 +39,9 @@ export default function Privacy() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-3">3. Cookies and Tracking</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-3">3. Cookies and Tracking Technologies</h2>
               <p>
-                We use Google Analytics to understand how visitors use our site. You can opt out of Google Analytics by:
+                <strong>gta-san-andreas.one</strong> uses Google Analytics to understand how visitors from the United States and worldwide use our GTA San Andreas download site. This helps us improve the mod download experience. You can opt out of Google Analytics by:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1">
                 <li>Using browser settings to block cookies</li>

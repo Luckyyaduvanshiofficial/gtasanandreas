@@ -9,14 +9,17 @@ export default function Disclaimer() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           <span className="text-gradient">Disclaimer</span>
         </h1>
-        <p className="text-center text-muted-foreground mb-12">Important information about using this mod</p>
+        <p className="text-center text-muted-foreground mb-8">Important information about using this GTA San Andreas mod</p>
+        <p className="text-center text-muted-foreground mb-12">
+          <a href="http://gta-san-andreas.one/" className="text-primary hover:underline">gta-san-andreas.one</a>
+        </p>
 
         {/* Critical Warning */}
         <Alert className="mb-8 border-destructive bg-destructive/10">
           <AlertTriangle className="h-5 w-5 text-destructive" />
           <AlertDescription className="text-base">
-            <strong className="font-semibold">Critical Notice:</strong> This mod requires a legal copy of GTA San Andreas. 
-            We do NOT distribute the original game files. Using this mod with pirated software is illegal and not supported.
+            <strong className="font-semibold">Critical Notice for gta-san-andreas.one Users:</strong> This GTA San Andreas mod requires a legal copy of GTA San Andreas. 
+            We do NOT distribute the original game files or support pirated copies. Using this mod with pirated software is illegal under US copyright law and international regulations. You must purchase GTA SA from authorized retailers like Steam or Rockstar Games.
           </AlertDescription>
         </Alert>
 
@@ -25,11 +28,11 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-3 flex items-center">
                 <AlertTriangle className="mr-3 h-6 w-6 text-primary" />
-                General Disclaimer
+                General Disclaimer for GTA SA Download
               </h2>
               <p>
-                The information and software provided on this website are for enhancement of your legally 
-                owned copy of Grand Theft Auto: San Andreas. While we strive for accuracy and stability, 
+                The information and software provided on <strong>gta-san-andreas.one</strong> are for enhancement of your legally 
+                owned copy of Grand Theft Auto: San Andreas. This GTA San Andreas compressed mod with definitive edition features is provided for US and international users. While we strive for accuracy and stability, 
                 we make no representations or warranties of any kind, express or implied, about:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1 mt-2">

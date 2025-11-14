@@ -7,25 +7,28 @@ export default function Terms() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
           Terms of <span className="text-gradient">Service</span>
         </h1>
-        <p className="text-center text-muted-foreground mb-12">Last updated: January 15, 2025</p>
+        <p className="text-center text-muted-foreground mb-8">Last updated: January 15, 2025</p>
+        <p className="text-center text-muted-foreground mb-12">
+          GTA San Andreas Ultimate Mod - <a href="http://gta-san-andreas.one/" className="text-primary hover:underline">gta-san-andreas.one</a>
+        </p>
 
         <Card className="gradient-card card-shadow p-8 md:p-12 border-border">
           <div className="prose prose-invert max-w-none space-y-6 text-muted-foreground">
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-3">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using this website and downloading our mod pack, you agree to be bound 
-                by these Terms of Service. If you do not agree to these terms, please do not use our service.
+                By accessing and using <strong>gta-san-andreas.one</strong> (the "Website") and downloading our GTA San Andreas Ultimate Mod pack, you agree to be bound 
+                by these Terms of Service. These terms apply to all visitors and users in the United States and worldwide. If you do not agree to these terms, please do not use our service or download our mod.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-3">2. Legal Requirements</h2>
-              <p className="font-semibold text-primary">You must own a legal copy of GTA San Andreas to use this mod.</p>
+              <h2 className="text-2xl font-bold text-foreground mb-3">2. Legal Requirements for GTA SA Download</h2>
+              <p className="font-semibold text-primary">You must own a legal copy of GTA San Andreas to use this mod from gta-san-andreas.one.</p>
               <p>
-                This mod pack is designed to enhance your legally owned copy of Grand Theft Auto: San Andreas. 
-                We do not provide, distribute, or support the distribution of the base game files. Piracy is 
-                illegal and violates intellectual property rights.
+                This GTA San Andreas Ultimate Mod pack available on <strong>gta-san-andreas.one</strong> is designed to enhance your legally owned copy of Grand Theft Auto: San Andreas. 
+                We do NOT provide, distribute, or support the distribution of the original base game files. Piracy is 
+                illegal under United States copyright law and violates intellectual property rights.
               </p>
               <ul className="list-disc list-inside ml-4 space-y-1 mt-2">
                 <li>You must purchase GTA SA from legitimate sources (Steam, Rockstar Games, etc.)</li>
